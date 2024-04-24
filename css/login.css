@@ -9,4 +9,31 @@
     src: url(montebello-regular.ttf)format("truetype"), url(montebello-light.otf)format("opentype");
     font-weight: normal;
     font-style: normal;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: black;
+    overflow: hidden;
+}
+
+.wrapper{
+    width: 400px;
+    height: 340px;
+    background: rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 0 6px 4px -4px beige(0,0,0,0.25);
+}
+
+.wrapper .title{
+    line-height: 80px;
+    background:rgb(0, 0, 0);
+    padding-left: 20px;
+    border-radius: 7px 7px 0 0;
+    font-size: 25px;
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    font-family: 'montebello', Times, serif;
 }
