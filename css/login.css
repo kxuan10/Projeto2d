@@ -67,11 +67,40 @@ body{
     outline: none;
     padding-left: 60px;
     border-radius: 5px;
-    border: 1px solid lightblue;
+    border: 1px solid rgb(43, 64, 71);
     font-size: 16px;
     font-family: 'montebello', times, serif;
 }
 
+.wrapper form .row .i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    font-size: 20px;
+    background: rgb(85, 84, 84);
+    box-shadow: 0 4px 2px -2px rgb(0, 0, 0);
+    border-radius: 5px 0 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper form .pass{
+    margin: -8px 0 20px 0;
+
+}
+
+.wrapper form .pass{
+    color: blue;
+    font-size: 17px;
+    text-decoration: none;
+    font-family: 'montebello', times, serif;
+}
+
+.wrapper form .pass p: :hover{
+text-decorarion:underline
+
+}
 
 
 
